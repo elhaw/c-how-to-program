@@ -20,6 +20,7 @@ int main(void)
     printf("Sum is %d",x +y +z);
     printf("\nAverage is %f",(double)(x +y +z)/3);
     printf("\nProduct is %d", x*y*z);
+    //compre three valuse and print the largese and smallest
    if (x > y)
    {
        if ( x > z)
