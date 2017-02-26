@@ -14,7 +14,7 @@
 
 * Codes are excuted using eclipse IDE 
   Version: Neon.2 Release (4.6.2)
-* compile version is gcc 4.9.1
+* compiler version is gcc 4.9.1
 
 ## Feel free to:
 
