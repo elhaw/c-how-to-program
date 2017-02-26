@@ -1,11 +1,14 @@
 /*
- ============================================================================
+ ==============================================================================
  Name        : 3_16.c
- Author      : Abdulrahman
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
+ Author      : Abdulrahman Elhaw
+ Description : a program that will input the miles driven and gallons used 
+               for each tankful. The program should calculate and display 
+	       the miles per gallon obtained for each tankful. After processing
+	       all input information,  the program should calculate and print 
+	       the combined miles per gallon obtained for all tankfuls.  
+ Created on  : 23 ,Feb 2017
+ ==============================================================================
  */
 
 #include <stdio.h>
@@ -18,15 +21,13 @@ int main ()
 
 	while(gallons != -1)
 	{
-		printf("Enter the gallons used (-1 to end):");
-		fflush(stdout);
-		scanf("%f",&gallons);
-		if (gallons ==-1)
-			{
-			break;
-			}
-		printf("Enter the miles driven:");
-		fflush(stdout);
+            printf("Enter the gallons used (-1 to end):");
+	    scanf("%f",&gallons);
+            if (gallons ==-1)
+	    {
+	        break;
+	    }
+	    printf("Enter the miles driven:");
 	    scanf("%f",&miles);
 	    counter++;
 	    avg_per_gallon =  miles/gallons ;
@@ -34,9 +35,9 @@ int main ()
 	    tot += avg_per_gallon ;
 	}
 
-     if (gallons ==-1)
+        if (gallons ==-1)
 	{
-		printf("The overall average miles/gallon %f",(float)tot/(counter));
+            printf("The overall average miles/gallon %f",(float)tot/(counter));
 	}
 
 	return 0;
