@@ -15,11 +15,10 @@ Created on   : 26 Feb ,2017
 
 int main(void)
 {
-	setvbuf (stdout, NULL, _IONBF, 0);
-
-	int size;
+	// initialize variables `
+	int size = 0;
 	int counter = 0 ;
-	int numbers;
+	int numbers = 0;
 	int sum = 0;
 	printf("Enter how many numbers to add:");
 	scanf("%d",&size);
