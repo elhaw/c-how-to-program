@@ -2,8 +2,6 @@
  ============================================================================
  Name        : 3_20.c
  Author      : Abdulrahman
- Version     :
- Copyright   : Your copyright notice
  Description : program that will determine the gross pay for each of several
                employees. The company pays “straight time” for the first 40 hours worked
                by each employee and pays “time-and-a-half” for all hours worked
