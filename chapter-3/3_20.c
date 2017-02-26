@@ -28,7 +28,6 @@ int main(void)
 	while (work_hours != -1)
 	{
 		printf("Enter # hourly rate of the worker($00.00):");
-		fflush(stdout);
 		scanf("%f",&hours_rate);
 		salary = work_hours * hours_rate;
 		if (work_hours >40)
