@@ -5,6 +5,7 @@
 
  Description : Write a program that calculates and prints the
                product of the odd integers from 1 to 15.
+ Created on  : 26 Feb, 2017
  ============================================================================
  */
 #include <stdio.h>

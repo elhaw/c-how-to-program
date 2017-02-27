@@ -5,6 +5,7 @@
 
  Description : Write a program that finds the smallest of several integers. Assume that
                the first value read specifies the number of values remaining.
+	       26 Feb, 2017
  ============================================================================
  */
 

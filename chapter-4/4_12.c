@@ -4,6 +4,7 @@
  Author      : Abdulrahman
  Description : Write a program that calculates and prints the sum
                of the even integers from 2 to 30
+ Created on  :	       26 Feb, 2017
  ============================================================================
  */
 #include <stdio.h>

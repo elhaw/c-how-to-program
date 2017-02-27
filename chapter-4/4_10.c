@@ -6,6 +6,7 @@
  Description : Write a program that calculates and prints the average of
                several integers. Assume the last value read with scanf is the
                sentinel 9999. A typical input sequence   might be 10 8 11 7 9 9999
+ Created on  :	       26 Feb, 2017
  ============================================================================
  */
 
