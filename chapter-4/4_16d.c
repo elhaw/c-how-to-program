@@ -19,7 +19,6 @@ int main(void)
 	int coloum = 0 ;
 	int height = 0 ;
 	printf("Enter the Height of the triangle:");
-	fflush(stdout);
 	scanf("%d",&height);
 	for (row = 1 ; row < height+1 ;row++)
 		{

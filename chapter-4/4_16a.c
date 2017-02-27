@@ -16,26 +16,25 @@ Created on   : 27 Feb, 2017
 
 int main(void)
 {
-	int row = 0 ;
-	int coloum = 0;
-	int height = 0 ;
-	printf("Enter the Height of the triangle:");
-	fflush(stdout);
-	scanf("%d",&height);
-	for (row = 0 ; row < height ;row++)
+    int row = 0 ;
+    int coloum = 0;
+    int height = 0 ;
+    printf("Enter the Height of the triangle:");
+    scanf("%d",&height);
+    for (row = 0 ; row < height ;row++)
+    {
+ 	for (coloum = 0 ; coloum < height ; coloum++)
 	{
-		for (coloum = 0 ; coloum < height ; coloum++)
-		{
-			if (row < coloum)
-			{
-		        printf(" ");
-			}
-			else
-			{
-				printf("*");
-			}
-		}
-		printf("\n");
+            if (row < coloum)
+	    {
+	        printf(" ");
+	    }
+	    else
+	    {
+		printf("*");
+	    }
+	}
+	printf("\n");
 	}
 	return 0;
 }
