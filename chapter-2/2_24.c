@@ -24,5 +24,6 @@ int main(void)
 		printf("The number [%d] is odd ",x);
 
 	}
+
 	return 0;
 }
