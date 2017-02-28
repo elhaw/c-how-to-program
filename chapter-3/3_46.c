@@ -33,9 +33,9 @@ int main(void)
 	printf("========================\n");
 	for ( current_year ; current_year <= limit ; ++current_year)
 	{
-        years++;
+            years++;
 	    new_poulation = current_population + (current_population * growth_rate * (years));
-		printf("Estimated population at (%d) is :%0.f\n",current_year,new_poulation);
+	    printf("Estimated population at (%d) is :%0.f\n",current_year,new_poulation);
 	}
 	return 0 ;
 }
