@@ -16,7 +16,9 @@ Created on   :Feb 10, 2017
 
 int main(void)
 {
-	int number = 42139;
+	int number = 0;
+	printf("Enter five-digit integer number");
+	scanf("%d",&number);
 	int digit = number/10000;
 	printf("%d   ",digit);
 	int weigth = digit* 10000;
