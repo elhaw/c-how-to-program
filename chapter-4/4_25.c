@@ -38,6 +38,7 @@ int decimal_to_binary (int number)
 {
     int weight = 256 ;
     int counter = 0 ;
+    //Iteraton exit when number of terms is more than 9
     while(counter != 9)
     {
         if (number >= weight )
