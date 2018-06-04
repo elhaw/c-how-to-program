@@ -24,5 +24,4 @@
 ## Feel free to:
 
 - submit your suggestions at: https://github.com/elhaw/C-How-to-program/issues
-- fork and send a pull request on: https://github.com/lbraglia/chtp
 - send an e-mail to: abd.elsayed@hotmail.com
